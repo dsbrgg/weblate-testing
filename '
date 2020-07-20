@@ -1,0 +1,14 @@
+const fs = require('fs')
+const { promisify } = require('util')
+
+const readFile = promisify(fs.readFile)
+
+;(async () => {
+  const templatesPath = './templates.json'
+  const templatesBuffer = await readFile(templatesPath)
+  const templatesJson = JSON.parse(templatesBuffer.toString())
+  console.log(templates)
+  const html = templates.map(({ row_to_json }) => ({ [row_to_json.code]: row_to_json.html }))
+
+  console.log(html)
+})()
