@@ -6,20 +6,27 @@ const writeFile = promisify(fs.writeFile)
 const createDir = promisify(fs.mkdir)
 
 ;(async () => {
-  const localesPath = './locales'
-  const templatesPath = './templates.json'
-  const templatesBuffer = await readFile(templatesPath)
+  const psqlJson = './psql.json'
+  const templatesPath = './templates'
+  const templatesBuffer = await readFile(psqlJson)
   const templatesJson = JSON.parse(templatesBuffer.toString())
-  const html =
 
   await Promise.all(
     templatesJson.map(async ({ row_to_json }) => {
-      const row = JSON.parse(row_to_json)
-      const directory = `${localesPath}/${row.code}`
-      const filename = `${directory}/en.html`
+      const { code, html } = JSON.parse(row_to_json)
+
+      const directory = `${templatesPath}/${code}`
+      const localeDirectory = `${directory}/locales`
+      const localeInitial = `${localeDirectory}/en.json`
+      const templateFilename = `${directory}/template.json`
+      const i18Filename = `${directory}/index.js`
 
       await createDir(directory)
-      await writeFile(filename, row.html)
-    }, {})
+      await createDir(localeDirectory)
+
+      await writeFile(i18Filename, '')
+      await writeFile(localeInitial, JSON.stringify({}, null, 2))
+      await writeFile(templateFilename, JSON.stringify({ html }, null, 2))
+    })
   )
 })()
