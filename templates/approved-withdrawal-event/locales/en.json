@@ -1,1 +1,16 @@
-{}
+{
+  "title": "Successfully Withdrawal Request",
+  "preHeader": "Successfully Withdrawal Request",
+  "withdrawalConfirmed": "Your withdrawal request has been successfully confirmed!",
+  "withdrawalDetails": "Dear {{userName}}, <strong>{{amountAsset}} {{amount}}</strong> was transferred to your account.",
+  "transactionDetails": "Transaction Details:",
+  "transactionName": "Name:",
+  "transactionWithdrawalType": "Withdrawal Type:",
+  "transactionTransferAmount": "Transfer amount:",
+  "transactionDate": "Date:",
+  "transactionInfo": "The time it takes to credit the account depends entirely on your bank or payment system. As a rule, it takes for 2 to a 5 working days for this refund to be reflected on your account.",
+  "payspaceQuestions": "Questions?",
+  "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}
