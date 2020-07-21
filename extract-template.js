@@ -18,7 +18,7 @@ const createDir = promisify(fs.mkdir)
       const directory = `${templatesPath}/${code}`
       const localeDirectory = `${directory}/locales`
       const localeInitial = `${localeDirectory}/en.json`
-      const templateFilename = `${directory}/template.json`
+      const templateFilename = `${directory}/${code}.json`
       const i18Filename = `${directory}/index.js`
 
       await createDir(directory)
