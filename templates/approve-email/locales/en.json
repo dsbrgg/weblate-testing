@@ -1,1 +1,14 @@
-{}
+{
+  "domainName": "CRAZY DOMAIN",
+  "title": "You have been approved to join to {{domainName}} Payspace!",
+  "preHeader": "You have been approved to join to {{domainName}} Payspace!",
+  "greetings": "Hey {{userName}}!",
+  "welcome": "<strong>{{ownerName}}</strong> just added you to <strong>{{domainName}}</strong> Payspace.<br> Welcome aboard!",
+  "payspaceDetails": "Here are a few details of the Payspace:",
+  "payspaceName": "Name:",
+  "payspaceOwner": "Payspace Owner:",
+  "payspaceQuestions": "Questions?",
+  "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}

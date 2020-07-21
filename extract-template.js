@@ -13,7 +13,7 @@ const createDir = promisify(fs.mkdir)
 
   await Promise.all(
     templatesJson.map(async ({ row_to_json }) => {
-      const { code, html } = JSON.parse(row_to_json)
+      const { code, html, text, subject } = JSON.parse(row_to_json)
 
       const directory = `${templatesPath}/${code}`
       const localeDirectory = `${directory}/locales`
@@ -26,7 +26,7 @@ const createDir = promisify(fs.mkdir)
 
       await writeFile(i18Filename, '')
       await writeFile(localeInitial, JSON.stringify({}, null, 2))
-      await writeFile(templateFilename, JSON.stringify({ html }, null, 2))
+      await writeFile(templateFilename, JSON.stringify({ html, text, subject }, null, 2))
     })
   )
 })()
