@@ -1,1 +1,9 @@
-{}
+{
+  "title": "You received a deposit in {{domainName}} payspace!",
+  "preHeader": "Welcome to {{domainName}} payspace!",
+  "receivedAsset": "You just received <strong>{{assetCode}}{{amount}}</strong> from an external <strong>{{assetName}}</strong>.<br>We are still waiting for more network confirmations before your {{assetName}} amount becomes available.",
+  "questions": "Questions?",
+  "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}
