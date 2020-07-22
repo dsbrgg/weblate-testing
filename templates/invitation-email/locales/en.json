@@ -1,1 +1,10 @@
-{}
+{
+  "title": "[Full name] has invited you to join to [Display name] payspace",
+  "preHeader": "Welcome to {{domainName}} payspace!",
+  "userInvite": "<strong>{{ userName }}</strong> (<a href=\"mailto:{{ userEmail }}\" style=\"color:#122744\">{{ userEmail }}</a>) has invited you to join the <strong>{{ domainName }}</strong> payspace on Slyk.",
+  "acceptInvitation": "Accept the invitation to start paying and getting paid globally.<br>Have a great day :)",
+  "joinPayspace": "Join Payspace Now!",
+  "downloadApp": "Download mobile app for iOS & Android",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}

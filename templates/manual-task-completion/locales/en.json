@@ -1,1 +1,12 @@
-{}
+{
+  "title": "You received a deposit in {{domainName}} payspace!",
+  "preHeader": "Welcome to {{domainName}} payspace!",
+  "taskReward": "Congratulations! You have been rewarded with<strong> {{amount}} {{amountAsset}} </strong>for completing the <strong>{{taskName}} </strong>task!",
+  "transactionDetails": "Transaction details:",
+  "transactionDate": "Date:",
+  "transactionAmount": "Amount:",
+  "questions": "Questions?",
+  "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}

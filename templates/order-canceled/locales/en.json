@@ -1,1 +1,14 @@
-{}
+{
+  "title": "Order Canceled",
+  "preHeader": "Order Canceled",
+  "orderCanceled": "Your order request has been canceled.",
+  "orderCanceledDetails": "Dear {{userName}}, your order with ID <strong>{{reference}}</strong> has been canceled. {{#if refundAmount}} The refunded amount is now available as funds in your {{domainName}} wallet.{{/if}}",
+  "contactPayspaceOwner": "For further information, please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "orderCanceledReason": "Reason",
+  "orderCanceledRefundedAmount": "Refunded amount",
+  "orderCanceledAmount": "Amount:",
+  "questions": "Questions?",
+  "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}

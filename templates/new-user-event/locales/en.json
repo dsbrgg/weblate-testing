@@ -1,1 +1,12 @@
-{}
+{
+  "title": "A new user just registered in your payspace!",
+  "preHeader": "Welcome to {{domainName}} payspace!",
+  "newUser": "A new user just registered in your payspace, here are the details:",
+  "newUserDetails": "New user details:",
+  "newUserName": "Name:",
+  "newUserEmail": "Email:",
+  "loginToPayspace": "Please <a href=\"{{ actionUrl }}\" style=\"color:#36f\">login</a> to your payspace here.",
+  "slykSupport": "You are receiving this email because you’re an identified administrator, if you want to stop receiving them please contact <a href=\"mailto:support@slyk.io\" style=\"color:#36f\">SLYK SUPPORT.</a>",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}
