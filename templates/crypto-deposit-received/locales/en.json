@@ -1,4 +1,5 @@
 {
+  "domainName": "{{domainName}}",
   "title": "You received a deposit in {{domainName}} payspace!",
   "preHeader": "Welcome to {{domainName}} payspace!",
   "receivedAsset": "You just received <strong>{{assetCode}}{{amount}}</strong> from an external <strong>{{assetName}}</strong>.<br>We are still waiting for more network confirmations before your {{assetName}} amount becomes available.",

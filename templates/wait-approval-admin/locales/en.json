@@ -1,1 +1,13 @@
-{}
+{
+  "title": "[Full USER Name] wants to join {{domainName}} payspace.",
+  "preHeader": "Welcome to {{domainName}} payspace",
+  "approvalRequest": "Hey {{administratorName}}!<br>You have an approval request!",
+  "approvalRequestDetails": "{{userName}} (<a href=\"mailto:{{ email }}\" style=\"color:#2372f3\">{{ email }}</a>) has requested to join your <strong>{{ domainName }}</strong> payspace.",
+  "approvalRequestForAdmin": "You are receiving this mail because you are an admin of the <strong>{{ domainName }}</strong> payspace.",
+  "approvalRequestReview": "Review Requests",
+  "approvalRequestManage": "You can manage your payspaces member requests from the <a href=\"{{actionUrl}}\">dashboard</a>. To deny this request, simply ignore this email.",
+  "approvalRequestSigninDetails": "Your sign-in details for <strong>{{ domainName }}",
+  "cheersTeamSupport": "Cheers,<br><a href=\"mailto:support@slyk.io\" style=\"color:#2372f3\">Slyk Team Support</a>",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}

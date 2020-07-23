@@ -1,1 +1,10 @@
-{}
+{
+  "title": "Password reset for {{domainName}} payspace",
+  "preHeader": "Password reset for <strong>{{domainName}}</strong> payspace",
+  "resetPasswordRequest": "We received a password reset request for your <strong>{{domainName}}</strong> payspace account. Please click below to proceed.",
+  "newPasswordRequest": "Create new Password",
+  "resetPasswordSupport": "If you didn’t request a password reset, simply delete it, your password will not change. If you have any concern about you account security, please contact our support team",
+  "supportTeam": "Support Team",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}

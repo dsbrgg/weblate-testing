@@ -12,8 +12,15 @@ const newWithdrawalEvent = require('./templates/new-withdrawal-event')
 const orderCanceled = require('./templates/order-canceled')
 const orderCreated = require('./templates/order-created')
 const orderFulfilled = require('./templates/order-fulfilled')
+const orderPaidEvent = require('./templates/order-paid-event')
+const orderPaid = require('./templates/order-paid')
+const orderRefunded = require('./templates/order-refunded')
+const rejectedWithdrawalEvent = require('./templates/rejected-withdrawal-event')
+const resetPassword = require('./templates/reset-password')
+const reviewWithdrawalEvent = require('./templates/review-withdrawal-event')
+const waitApprovalAdmin = require('./templates/wait-approval-admin')
 
 const options = { noEscape: true }
-const result = orderFulfilled({ locale: 'en', options })
+const result = waitApprovalAdmin({ locale: 'en', options })
 
 console.log(result)

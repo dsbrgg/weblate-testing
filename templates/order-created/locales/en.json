@@ -9,7 +9,7 @@
   "orderTablePrice": "Price",
   "orderTableQty": "Qty.",
   "orderTableFinalPrice": "Final price",
-  "orderSummary": "Order Summary",
+  "orderSummaryTitle": "Order Summary",
   "orderSummaryItems": "Items",
   "orderSummaryShipping": "Shipping",
   "orderSummaryPointsRedeemed": "Points redeemed",

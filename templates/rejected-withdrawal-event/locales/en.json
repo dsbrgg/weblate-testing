@@ -1,1 +1,16 @@
-{}
+{
+  "title": "Withdrawal Request not Approved",
+  "preHeader": "Withdrawal Request not Approved",
+  "rejectedWithdrawal": "Your withdrawal request was unsuccessful...",
+  "rejectedWithdrawalFurtherInformation": "Dear {{userName}}, unfortunately, your request of <strong>{{amountAsset}} {{amount}}</strong> was not approved. For further information, please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "rejectedWithdrawalReasonDetail": "Reason Detail:",
+  "rejectedWithdrawalTransactionDetails": "Transaction Details:",
+  "rejectedWithdrawalTransactionName": "Name:",
+  "rejectedWithdrawalTransactionType": "Type:",
+  "rejectedWithdrawalTransactionAmount": "Transfer Amount:",
+  "rejectedWithdrawalTransactionDate": "Date:",
+  "questions": "Question?",
+  "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}

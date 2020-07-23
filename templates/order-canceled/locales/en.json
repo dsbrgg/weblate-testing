@@ -1,4 +1,9 @@
 {
+  "domainName": "{{domainName}}",
+  "domainInitials": "{{domainInitials}}",
+  "reason": "{{reason}}",
+  "assetCode": "{{assetCode}}",
+  "refundAmount": "{{refundAmount}}",
   "title": "Order Canceled",
   "preHeader": "Order Canceled",
   "orderCanceled": "Your order request has been canceled.",

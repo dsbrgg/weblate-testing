@@ -1,4 +1,9 @@
 {
+  "domainName": "{{domainName}}",
+  "domainInitials": "{{domainInitials}}",
+  "userName": "{{userName}}",
+  "userEmail": "{{userEmail}}",
+  "referralEmail": "{{referralEmail}}",
   "title": "You received a deposit in {{domainName}} payspace!",
   "preHeader": "Welcome to {{domainName}} payspace!",
   "newUser": "You payspace just got one new user registered from an invite.<br>Here are the details:",

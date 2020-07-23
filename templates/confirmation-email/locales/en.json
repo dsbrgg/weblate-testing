@@ -1,4 +1,6 @@
 {
+  "domainName": "{{domainName}}",
+  "actionUrl": "{{actionUrl}}",
   "title": "Please confirm your email address on {{domainName}} payspace.",
   "preHeader": "Please confirm your email address",
   "thanksForSignUp": "Thank you for signing up!",
@@ -6,6 +8,7 @@
   "getStarted": "To get started, please click below to confirm your email address.",
   "confirmEmail": "Confirm your email",
   "emailCaveate": "If you didn’t request this email, simply delete it. If you keep receiving this emails, please contact our support team",
+  "supportTeam": "Support Team",
   "stayConnected": "Stay connected with us",
   "poweredBy": "powered by" 
 }

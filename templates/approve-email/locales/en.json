@@ -1,6 +1,8 @@
 {
-  "domainName": "CRAZY",
-  "title": "You have been approved to join to {{@root.domainName}} Payspace!",
+  "domainName": "{{domainName}}",
+  "actionUrl": "{{actionUrl}}",
+  "ownerName": "{{ownerName}}",
+  "title": "You have been approved to join to {{domainName}} Payspace!",
   "preHeader": "You have been approved to join to {{domainName}} Payspace!",
   "greetings": "Hey {{userName}}!",
   "welcome": "<strong>{{ownerName}}</strong> just added you to <strong>{{domainName}}</strong> Payspace.<br> Welcome aboard!",

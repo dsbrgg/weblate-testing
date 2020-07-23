@@ -1,4 +1,6 @@
 {
+  "domainName": "{{domainName}}",
+  "userName": "{{userName}}",
   "title": "You received a deposit in {{domainName}} payspace!",
   "preHeader": "Welcome to {{domainName}} payspace!",
   "transactionNew": "A new<strong> {{type}}</strong> transaction was made in your payspace.<br>Here are the details:",

@@ -1,4 +1,8 @@
 {
+  "domainName": "{{domainName}}",
+  "domainInitials": "{{domainInitials}}",
+  "date": "{{date}}",
+  "amount": "{{amount}}",
   "title": "You received a deposit in {{domainName}} payspace!",
   "preHeader": "Welcome to {{domainName}} payspace!",
   "taskReward": "Congratulations! You have been rewarded with<strong> {{amount}} {{amountAsset}} </strong>for completing the <strong>{{taskName}} </strong>task!",

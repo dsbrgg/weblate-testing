@@ -1,4 +1,11 @@
 {
+  "domainName": "{{domaiName}}",
+  "domainInitials": "{{domainInitials}}",
+  "userName": "{{userName}}",
+  "userEmail": "{{userEmail}}",
+  "walletId": "{{walletId}}",
+  "assetCode": "{{assetCode}}",
+  "type": "{{type}}",
   "title": "You received a deposit in {{domainName}} payspace!",
   "preHeader": "Welcome to {{domainName}} payspace!",
   "newTransaction": "A new<strong> {{type}}</strong> transaction was made in your payspace.<br>Here are the details:",

@@ -1,4 +1,8 @@
 {
+  "domainName": "{{domainName}}",
+  "domainInitials": "{{domainInitials}}",
+  "userName": "{{userName}}",
+  "userEmail": "{{userEmail}}",
   "title": "A new user just registered in your payspace!",
   "preHeader": "Welcome to {{domainName}} payspace!",
   "newUser": "A new user just registered in your payspace, here are the details:",

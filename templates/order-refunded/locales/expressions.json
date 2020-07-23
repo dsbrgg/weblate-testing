@@ -1,0 +1,6 @@
+{
+  "domainName": "{{domainName}}",
+  "refundReason": "{{refundReason}}",
+  "assetCode": "{{assetCode}}",
+  "refundAmount": "{{refundAmount}}"
+}

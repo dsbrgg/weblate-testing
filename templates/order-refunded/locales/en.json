@@ -1,1 +1,18 @@
-{}
+{
+  "domainName": "{{domainName}}",
+  "refundReason": "{{refundReason}}",
+  "assetCode": "{{assetCode}}",
+  "refundAmount": "{{refundAmount}}",
+  "title": "Order Refunded",
+  "preHeader": "Order Refunded",
+  "orderRefunded": "Order refunded",
+  "orderRefundedText": "Dear {{userName}}, your order with ID <strong>{{reference}}</strong> has been refunded. The refunded amount is now available as funds in your {{domainName}} wallet.",
+  "orderRefundedFurtherInfo": "For further information, please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "orderRefundedReason": "Reason",
+  "orderRefundedAmount": "Refunded amount",
+  "orderRefundedAmountDetail": "Amount:",
+  "questions": "Questions?",
+  "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}
