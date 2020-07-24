@@ -1,11 +1,12 @@
-const Handlebars = require('handlebars')
-
 const locales = require('./locales')
-const approvedWithdrawalEvent = require('./approved-withdrawal-event.json')
+const approvedWithdrawalEvent = require('./approved-withdrawal-event')
+const translate = require('../utils/translate')
 
 module.exports = ({ locale, options = {} }) => {
-  const template = Handlebars.compile(approvedWithdrawalEvent.html, options)
+  const { html } = approvedWithdrawalEvent
   const expressions = locales[locale]
 
-  return template(expressions)
+  return translate({ html, expressions })
 }
+
+

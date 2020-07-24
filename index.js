@@ -19,8 +19,9 @@ const rejectedWithdrawalEvent = require('./templates/rejected-withdrawal-event')
 const resetPassword = require('./templates/reset-password')
 const reviewWithdrawalEvent = require('./templates/review-withdrawal-event')
 const waitApprovalAdmin = require('./templates/wait-approval-admin')
+const waitApproval = require('./templates/wait-approval')
 
 const options = { noEscape: true }
-const result = waitApprovalAdmin({ locale: 'en', options })
+const result = orderPaid({ locale: 'en', options })
 
 console.log(result)

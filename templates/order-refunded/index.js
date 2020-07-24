@@ -1,11 +1,11 @@
-const Handlebars = require('handlebars')
-
 const locales = require('./locales')
-const orderRefunded = require('./order-refunded.json')
+const orderRefunded = require('./order-refunded')
+const translate = require('../utils/translate')
 
 module.exports = ({ locale, options = {} }) => {
-  const template = Handlebars.compile(orderRefunded.html, options)
+  const { html } = orderRefunded
   const expressions = locales[locale]
 
-  return template(expressions)
+  return translate({ html, expressions })
 }
+

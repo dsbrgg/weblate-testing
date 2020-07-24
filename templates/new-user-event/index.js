@@ -1,11 +1,11 @@
-const Handlebars = require('handlebars')
-
 const locales = require('./locales')
-const newUserEvent = require('./new-user-event.json')
+const newUserEvent = require('./new-user-event')
+const translate = require('../utils/translate')
 
 module.exports = ({ locale, options = {} }) => {
-  const template = Handlebars.compile(newUserEvent.html, options)
+  const { html } = newUserEvent
   const expressions = locales[locale]
 
-  return template(expressions)
+  return translate({ html, expressions })
 }
+

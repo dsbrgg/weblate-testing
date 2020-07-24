@@ -1,11 +1,11 @@
-const Handlebars = require('handlebars')
-
 const locales = require('./locales')
-const completedTaskEvent = require('./completed-task-event.json')
+const completedTaskEvent = require('./completed-task-event')
+const translate = require('../utils/translate')
 
 module.exports = ({ locale, options = {} }) => {
-  const template = Handlebars.compile(completedTaskEvent.html, options)
+  const { html } = completedTaskEvent
   const expressions = locales[locale]
 
-  return template(expressions)
+  return translate({ html, expressions })
 }
+

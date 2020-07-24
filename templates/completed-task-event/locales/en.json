@@ -1,10 +1,4 @@
 {
-  "domainName": "{{domainName}}",
-  "userName": "{{userName}}",
-  "userEmail": "{{userEmail}}",
-  "amount": "{{amount}}",
-  "assetCode": "{{assetCode}}",
-  "taskName": "{{taskName}}",
   "title": "You received a deposit in {{domainName}} payspace!",
   "preHeader": "Welcome to {{domainName}} payspace!",
   "taskOwnerNotification": "Hey {{ownerName}}!",

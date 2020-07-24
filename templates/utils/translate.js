@@ -1,1 +1,12 @@
-module.exports = ({ html, expressions }) => Object.keys(expressions).reduce((template, expression) => template.replace(new RegExp(`{{${expression}}}`, 'g'), expressions[expression]), html)
+module.exports = ({ html, expressions }) => {
+  let template = html
+
+  for(const expression in expressions) {
+    const value = expressions[expression]
+    const regex = new RegExp(`{{${expression}}}`, 'g')
+
+    template = template.replace(regex, value)
+  }
+
+  return template
+}

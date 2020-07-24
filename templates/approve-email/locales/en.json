@@ -1,7 +1,4 @@
 {
-  "domainName": "{{domainName}}",
-  "actionUrl": "{{actionUrl}}",
-  "ownerName": "{{ownerName}}",
   "title": "You have been approved to join to {{domainName}} Payspace!",
   "preHeader": "You have been approved to join to {{domainName}} Payspace!",
   "greetings": "Hey {{userName}}!",
@@ -9,7 +6,7 @@
   "payspaceDetails": "Here are a few details of the Payspace:",
   "payspaceName": "Name:",
   "payspaceOwner": "Payspace Owner:",
-  "payspaceQuestions": "Questions?",
+  "questions": "Questions?",
   "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
   "stayConnected": "Stay connected with us",
   "poweredBy": "powered by"

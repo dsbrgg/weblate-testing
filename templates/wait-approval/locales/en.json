@@ -1,1 +1,11 @@
-{}
+{
+  "title": "Welcome to [Display name] payspace",
+  "preHeader": "Welcome to {{domainName}} payspace!",
+  "waitApproval": "You are now waiting for admin approval to join {{ domainName }} payspace.<br>If you don't get approval soon, please contact your admin directly.",
+  "waitApprovalSignIn": "Sign In",
+  "questions": "Question?",
+  "askAnything": "Ask us anything. We’re here for you.",
+  "contactUs": "Contact Us",
+  "stayConnected": "Stay connected with us",
+  "poweredBy": "powered by"
+}

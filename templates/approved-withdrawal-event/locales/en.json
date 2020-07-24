@@ -1,10 +1,4 @@
 {
-  "domainName": "{{domainName}}",
-  "userName": "{{userName}}",
-  "type": "{{type}}",
-  "amount": "{{amount}}",
-  "amountAsset": "{{amountAsset}}",
-  "date": "{{date}}",
   "title": "Successfully Withdrawal Request",
   "preHeader": "Successfully Withdrawal Request",
   "withdrawalConfirmed": "Your withdrawal request has been successfully confirmed!",
@@ -15,7 +9,7 @@
   "transactionTransferAmount": "Transfer amount:",
   "transactionDate": "Date:",
   "transactionInfo": "The time it takes to credit the account depends entirely on your bank or payment system. As a rule, it takes for 2 to a 5 working days for this refund to be reflected on your account.",
-  "payspaceQuestions": "Questions?",
+  "questions": "Questions?",
   "contactPayspaceOwner": "Please contact your <a href=\"mailto:{{ownerEmail}}\">payspace owner</a>.",
   "stayConnected": "Stay connected with us",
   "poweredBy": "powered by"
