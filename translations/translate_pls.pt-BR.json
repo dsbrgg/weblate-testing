@@ -1,7 +1,3 @@
 {
-  "this": {
-    "should": {
-      "be": ""
-    }
-  }
+    "this.should.be": "ola hehe ho hi ha"
 }
