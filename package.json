@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/dsbrgg/weblate-testing#readme",
   "dependencies": {
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "html-minifier": "^4.0.0"
   }
 }
